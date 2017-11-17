@@ -1,21 +1,10 @@
 <?php
 namespace MFFResources;
 
-class ResourceJSONReader
+class ResourceJSONParser
 {
-    private $file;
-    public function __construct(string $file)
+    public function parse(string $json): Courses
     {
-        $this->file = $file;
-    }
-
-    public function read(): Courses
-    {
-        $json = file_get_contents($this->file);
-        if ($json === false) {
-            throw new \Exception("Reading the resource file failed.");
-        }
-
         $decoded = json_decode($json);
         if ($decoded === NULL) {
             throw new \Exception("Failed to decode JSON.");

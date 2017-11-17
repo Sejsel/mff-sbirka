@@ -1,11 +1,11 @@
 <?php
 require __DIR__ . "/vendor/autoload.php";
 
-use MFFResources\ResourceJSONReader;
+use MFFResources\CourseResourceReader;
 
 try {
-    $reader = new ResourceJSONReader("sbirka.json");
-    $courses = $reader->read();
+    $reader = new CourseResourceReader("sbirka.json");
+    $courses = $reader->getCourses();
 
     $body = $courses->allDetailsHTML();
 } catch (\Exception $e) {
