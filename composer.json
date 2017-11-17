@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"MFFResources\\": "classes/"}
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  }
+}

@@ -1,11 +1,17 @@
 <?php
-require "autoload.php";
+require __DIR__ . "/vendor/autoload.php";
 
 use MFFResources\ResourceJSONReader;
 
-$reader = new ResourceJSONReader("test.json");
+try {
+    $reader = new ResourceJSONReader("sbirka.json");
+    $courses = $reader->read();
 
-$courses = $reader->read();
+    $body = $courses->allDetailsHTML();
+} catch (\Exception $e) {
+    $body = $e->getMessage();
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,6 +21,6 @@ $courses = $reader->read();
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-    <?php echo $courses->allDetailsHTML(); ?>
+        <?php echo $body; ?>
 	</body>
 </html>
