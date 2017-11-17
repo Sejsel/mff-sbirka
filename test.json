@@ -1,0 +1,133 @@
+{
+  "NTIN060": {
+    "name": "Algoritmy a datové struktury I",
+    "resources": [
+      {
+        "desc": "Description",
+        "links": [
+          {
+            "link_title": "GitHub",
+            "url": "https://github.com/"
+          }
+        ],
+        "backups": [
+          {
+            "date": "2016-01-02",
+            "link_title": "backup",
+            "url": "/backup.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "NO_RES_EXPL_TEST": {
+    "name": "No resources, explicit empty array",
+    "resources": []
+  },
+  "NO_RES_IMPL_TEST": {
+    "name": "No resources, resources entry missing"
+  },
+  "MULTIPLE_LINK_TEST": {
+    "name": "Multiple urls for one resource",
+    "resources": [
+      {
+        "desc": "Full description",
+        "links": [
+          {
+            "link_title": "GitHub",
+            "url": "https://github.com/"
+          },
+          {
+            "link_title": "GitLab",
+            "url": "https://gitlab.com/"
+          }
+        ],
+        "backups": [
+          {
+            "date": "2016-01-02",
+            "link_title": "backup",
+            "url": "/backup.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "BACKUP_TEST": {
+    "name": "Testing backups",
+    "resources": [
+      {
+        "desc": "1 Backup",
+        "links": [
+          {
+            "date": "2016-01-02",
+            "link_title": "Test",
+            "url": "https://test.com/"
+          }
+        ],
+        "backups": [
+          {
+            "date": "2016-01-02",
+            "link_title": "backup",
+            "url": "/backup.pdf"
+          }
+        ]
+      },
+      {
+        "desc": "Empty array of backups",
+        "links": [
+          {
+            "link_title": "Test",
+            "url": "https://test.com/"
+          }
+        ],
+        "backups": []
+      },
+      {
+        "desc": "Backup entry not mentioned",
+        "links": [
+          {
+            "link_title": "Test",
+            "url": "https://test.com/"
+          }
+        ]
+      },
+      {
+        "desc": "2 Backups",
+        "links": [
+          {
+            "link_title": "Test",
+            "url": "https://test.com/"
+          }
+        ],
+        "backups": [
+          {
+            "date": "2016-01-02",
+            "link_title": "backup",
+            "url": "/backup.pdf"
+          },
+          {
+            "date": "2016-01-03",
+            "link_title": "backup 2",
+            "url": "/backup2.pdf"
+          }
+        ]
+      },
+      {
+        "desc": "Backup without date",
+        "links": [
+          {
+            "link_title": "Test",
+            "url": "https://test.com/"
+          }
+        ],
+        "backups": [
+          {
+            "date": "2016-01-02",
+            "link_title": "backup",
+            "url": "/backup.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}

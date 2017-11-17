@@ -1,0 +1,23 @@
+{
+	"NTIN060": {
+		"name": "Algoritmy a datové struktury I",
+		"resources": [
+			{
+				"desc": "Description",
+				"links": [
+					{
+						"link_title": "GitHub",
+						"url": "https://github.com/"
+					}
+				],
+				"backups": [
+					{
+						"date": "2016-01-02",
+						"link_title": "backup",
+						"url": "/backup.pdf"
+					}
+				]
+			}
+		]
+	}
+}

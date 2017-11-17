@@ -1,0 +1,69 @@
+<?php
+namespace MFFResources;
+
+class ResourceJSONReader
+{
+    private $file;
+    public function __construct(string $file)
+    {
+        $this->file = $file;
+    }
+
+    public function read(): Courses
+    {
+        $json = file_get_contents($this->file);
+        if ($json === false) {
+            throw new \Exception("Reading the resource file failed.");
+        }
+
+        $decoded = json_decode($json);
+        if ($decoded === NULL) {
+            throw new \Exception("Failed to decode JSON.");
+        }
+
+        $courses = [];
+        foreach ($decoded as $code => $course) {
+            if (!isset($course->name)) {
+                throw new \Exception("Course $code is missing a name.");
+            }
+
+            $resources = [];
+            foreach ($course->resources ?? [] as $res) {
+                if (!isset($res->desc)) {
+                    throw new \Exception("Resource within course $code is missing a description.");
+                }
+
+                $links = [];
+
+                foreach ($res->links ?? [] as $link) {
+                    $links[] = $this->parseLink($link, $code);
+                }
+
+                $backups = [];
+                foreach ($res->backups ?? [] as $backup) {
+                    $b = $this->parseLink($backup, $code);
+                    if (!$b->hasDate()) {
+                        throw new \Exception("Backup within course $code is missing a date.");
+                    }
+
+                    $backups[] = $b;
+                }
+
+                $resources[] = new Resource($res->desc, $links, $backups);
+            }
+
+            $courses[] = new Course($code, $course->name, $resources);
+        }
+
+        return new Courses($courses);
+    }
+
+    private function parseLink($link, string $courseCode): Link
+    {
+        if (!isset($link->url)) {
+            throw new \Exception("Link within course $courseCode is missing a url.");
+        }
+
+        return new Link($link->url, $link->link_title ?? "", $link->date ?? "");
+    }
+}
