@@ -15,19 +15,6 @@ class Course
         $this->resources = $resources;
     }
 
-    public function toHTML(): string
-    {
-        return <<<HTML
-<div>
-Name: $this->name
-<br>
-Code: $this->code
-<br>
-Resources: $this->resources
-</div>
-HTML;
-    }
-
     public function detailHTML(): string
     {
         $resourcesHtml = "";
