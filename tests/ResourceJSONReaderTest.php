@@ -1,5 +1,4 @@
 <?php
-require __DIR__ . "/../vendor/autoload.php";
 
 use MFFResources\ResourceJSONParser;
 use PHPUnit\Framework\TestCase;

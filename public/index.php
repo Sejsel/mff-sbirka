@@ -1,10 +1,10 @@
 <?php
-require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 use MFFResources\CourseResourceReader;
 
 try {
-    $reader = new CourseResourceReader("sbirka.json");
+    $reader = new CourseResourceReader("../sbirka.json");
     $courses = $reader->getCourses();
 
     $body = $courses->allDetailsHTML();
