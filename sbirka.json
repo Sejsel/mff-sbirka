@@ -1,22 +1,476 @@
 {
+	"NMAI054": {
+		"name": "Matematická Analýza I",
+		"resources": [
+			{
+				"desc": "Skripta od Luboše Picka, Stanislava Hencla, Jiřího Spurného a Miroslava Zeleného. Jdou více do hloubky než se probírá v informatických přednáškách.",
+				"links": [
+					{
+						"link_title": "Hencl",
+						"url": "http://www.karlin.mff.cuni.cz/~hencl/skripta.pdf"
+					},
+					{
+						"link_title": "Pick",
+						"url": "http://www.karlin.mff.cuni.cz/~pick/analyza-pro-studenty.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Skripta (zatím nehotová) Martina Klazara k Matematické Analýze I",
+				"links": [
+					{
+						"link_title": "PDF",
+						"url": "http://kam.mff.cuni.cz/%7Eklazar/maI.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Poznámky k přednáškám Martina Klazara (Matematická Analýza I)",
+				"links": [
+					{
+						"link_title": "Stránky přednášky z roku 2016",
+						"url": "http://kam.mff.cuni.cz/%7Eklazar/MAI16.html"
+					}
+				]
+			}
+		]
+	},
+	"NMAI055": {
+		"name": "Matematická Analýza II",
+		"resources": [
+			{
+				"desc": "Skripta od Luboše Picka, Stanislava Hencla, Jiřího Spurného a Miroslava Zeleného. Jdou více do hloubky než se probírá v informatických přednáškách.",
+				"links": [
+					{
+						"link_title": "Hencl",
+						"url": "http://www.karlin.mff.cuni.cz/~hencl/skripta.pdf"
+					},
+					{
+						"link_title": "Pick",
+						"url": "http://www.karlin.mff.cuni.cz/~pick/analyza-pro-studenty.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Poznámky k přednáškám Martina Klazara (Matematická Analýza II)",
+				"links": [
+					{
+						"link_title": "Stránky přednášky z roku 2015",
+						"url": "http://kam.mff.cuni.cz/%7Eklazar/MAII15.html"
+					}
+				]
+			}
+		]
+	},
+	"NMAI057": {
+		"name": "Lineární Algebra I",
+		"resources": [
+			{
+				"desc": "Skripta od Milana Hladíka",
+				"links": [
+					{
+						"link_title": "A4 verze (PDF)",
+						"url": "http://kam.mff.cuni.cz/~hladik/LA/text_la.pdf"
+					},
+					{
+						"link_title": "Kindle verze (PDF)",
+						"url": "http://kam.mff.cuni.cz/~hladik/LA/text_la_kindle.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Mapa od Pavla Klavíka",
+				"links": [
+					{
+						"link_title": "Pavel Klavík - orgpad",
+						"url": "http://pavel.klavik.cz/orgpad/linearni_algebra.html"
+					}
+				]
+			}
+		]
+	},
+	"NMAI058": {
+		"name": "Lineární Algebra II",
+		"resources": [
+			{
+				"desc": "Skripta od Milana Hladíka",
+				"links": [
+					{
+						"link_title": "A4 verze (PDF)",
+						"url": "http://kam.mff.cuni.cz/~hladik/LA/text_la.pdf"
+					},
+					{
+						"link_title": "Kindle verze (PDF)",
+						"url": "http://kam.mff.cuni.cz/~hladik/LA/text_la_kindle.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Mapa od Pavla Klavíka",
+				"links": [
+					{
+						"link_title": "Pavel Klavík - orgpad",
+						"url": "http://pavel.klavik.cz/orgpad/linearni_algebra.html"
+					}
+				]
+			}
+		]
+	},
+	"NPRG030": {
+		"name": "Programování I",
+		"resources": [
+			{
+				"desc": "Kuchařky KSP - Korespondenčního semináře z programování. Jde o krátké texty o různých základních tématech.",
+				"links": [
+					{
+						"link_title": "Encyklopedie KSP",
+						"url": "http://ksp.mff.cuni.cz/encyklopedie/"
+					}
+				]
+			},
+			{
+				"desc": "Seznam nápady na zápočtové programy Martina Mareše",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://mj.ucw.cz/vyuka/zap/"
+					}
+				]
+			}
+		]
+	},
+	"NPRG031": {
+		"name": "Programování II",
+		"resources": [
+			{
+				"desc": "Kuchařky KSP - Korespondenčního semináře z programování. Krátké texty o různých základních tématech",
+				"links": [
+					{
+						"link_title": "Encyklopedie KSP",
+						"url": "http://ksp.mff.cuni.cz/encyklopedie/"
+					}
+				]
+			},
+			{
+				"desc": "Seznam nápady na zápočtové programy Martina Mareše",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://mj.ucw.cz/vyuka/zap/"
+					}
+				]
+			}
+		]
+	},
+	"NDMI002": {
+		"name": "Diskrétní matematika",
+		"resources": [
+			{
+				"desc": "Kapitoly z Diskrétní Matematiky. Skvěle napsaná knížka, obsahuje víceméně vše.",
+				"links": [
+					{
+						"link_title": "Odkaz chybí (PDF). Existuje.",
+						"url": "TODO"
+					}
+				]
+			},
+			{
+				"desc": "Ručně psané poznámky Jiřího Fialy",
+				"links": [
+					{
+						"link_title": "PDF",
+						"url": "http://kam.mff.cuni.cz/~fiala/DM/priprava-DM.pdf"
+					}
+				]
+			}
+		]
+	},
+	"NSWI141": {
+		"name": "Úvod do počítačových sítí",
+		"resources": [
+			{
+				"desc": "Prezentace, rámcové znění otázek, ukázková otázka",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "https://www.ms.mff.cuni.cz/~forst/vyuka.html#inet"
+					}
+				]
+			},
+			{
+				"desc": "Odpovědi a různé poznámky k otázkám ke zkoušce",
+				"links": [
+					{
+						"link_title": "GitHub",
+						"url": "https://github.com/petrroll/mff-stuff/blob/master/site/site_2016.md"
+					}
+				]
+			}
+		]
+	},
+	"NSWI120": {
+		"name": "Principy počítačů",
+		"resources": [
+			{
+				"desc": "Hlavní stránka předmětu, obsahuje obsahy přednášek, starší zadání. Obsah přednášek se rok od roku trochu liší, neděste se věcí ve starších zadáních o kterých jste nikdy neslyšeli.",
+				"links": [
+					{
+						"link_title": "Stránka předmětu",
+						"url": "http://d3s.mff.cuni.cz/teaching/principles_of_computers/"
+					}
+				]
+			},
+			{
+				"desc": "Jedna jednodušší vyřešená úloha na překládání z assembleru",
+				"links": [
+					{
+						"link_title": "GitHub",
+						"url": "https://github.com/Sejsel/mff-stuff/blob/principy/principy-pocitacu/minule_zkousky/2015-16/v10.md"
+					}
+				]
+			}
+		]
+	},
+	"NJAZ091": {
+		"name": "Anglický Jazyk",
+		"resources": [
+			{
+				"desc": "Učebnice používané pro výuku. PDF existují.",
+				"links": [
+					{
+						"link_title": "Odkaz chybí (PDF)",
+						"url": "TODO"
+					},
+					{
+						"link_title": "Odkaz chybí (PDF)",
+						"url": "TODO"
+					},
+					{
+						"link_title": "Odkaz chybí (PDF)",
+						"url": "TODO"
+					}
+				]
+			},
+			{
+				"desc": "Učebnice Angličtina pro studenty MFF UK",
+				"links": [
+					{
+						"link_title": "Odkaz chybí (PDF)",
+						"url": "TODO"
+					}
+				]
+			}
+		]
+	},
 	"NTIN060": {
 		"name": "Algoritmy a datové struktury I",
 		"resources": [
 			{
-				"desc": "Description",
+				"desc": "Průvodce labyrintem algoritmů od Martina Mareše a Tomáše Vally. Skvělá kniha, pokrývá vše z ADS a hodí si u některých dalších přednášek. Dostupná pod licencí CC BY-ND 3.0 CZ, vydal CZ.NIC.",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://pruvodce.ucw.cz/"
+					},
+					{
+						"link_title": "PDF",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.pdf"
+					},
+					{
+						"link_title": "EPUB",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.epub"
+					},
+					{
+						"link_title": "MOBI",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.mobi"
+					}
+				]
+			},
+			{
+				"desc": "Záznamy přednášek Martina Mareše z roku 2015",
+				"links": [
+					{
+						"link_title": "Web MFF, potřeba přihlášení (CAS)",
+						"url": "https://is.mff.cuni.cz/prednasky/prednaska/NTIN060/1"
+					},
+					{
+						"link_title": "Stránka k nahrané přednášce s rozvrhem",
+						"url": "http://mj.ucw.cz/vyuka/1415/ads1/"
+					}
+				]
+			},
+			{
+				"desc": "Kuchařky KSP - Korespondenčního semináře z programování. Jde o krátké texty o různých základních tématech.",
+				"links": [
+					{
+						"link_title": "Encyklopedie KSP",
+						"url": "http://ksp.mff.cuni.cz/encyklopedie/"
+					}
+				]
+			}
+		]
+	},
+	"NTIN061": {
+		"name": "Algoritmy a datové struktury II",
+		"resources": [
+			{
+				"desc": "Průvodce labyrintem algoritmů od Martina Mareše a Tomáše Vally. Skvělá kniha, pokrývá vše z ADS a hodí si u některých dalších přednášek. Dostupná pod licencí CC BY-ND 3.0 CZ, vydal CZ.NIC.",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://pruvodce.ucw.cz/"
+					},
+					{
+						"link_title": "PDF",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.pdf"
+					},
+					{
+						"link_title": "EPUB",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.epub"
+					},
+					{
+						"link_title": "MOBI",
+						"url": "https://knihy.nic.cz/files/edice/Pruvodce_labyrintem_algoritmu.mobi"
+					}
+				]
+			},
+			{
+				"desc": "Nekompletní záznamy přednášek Ondřeje Čepka z roku 2010",
+				"links": [
+					{
+						"link_title": "Studentské uložiště, potřeba přihlášení (CAS)",
+						"url": "https://su.mff.cuni.cz/home/prj/lectures/Algoritmy%20a%20datove%20struktury%20II/"
+					}
+				]
+			},
+			{
+				"desc": "Kuchařky KSP - Korespondenčního semináře z programování. Jde o krátké texty o různých základních tématech.",
+				"links": [
+					{
+						"link_title": "Encyklopedie KSP",
+						"url": "http://ksp.mff.cuni.cz/encyklopedie/"
+					}
+				]
+			}
+		]
+	},
+	"NDMI011": {
+		"name": "Kombinatorika a grafy I",
+		"resources": [
+			{
+				"desc": "Kapitoly z Diskrétní Matematiky. Skvěle napsaná knížka, obsahuje část probíraných věcí.",
+				"links": [
+					{
+						"link_title": "Odkaz chybí (PDF). Existuje.",
+						"url": "TODO"
+					}
+				]
+			},
+			{
+				"desc": "Ručně psané poznámky Jiřího Fialy",
+				"links": [
+					{
+						"link_title": "PDF",
+						"url": "http://kam.mff.cuni.cz/~fiala/KG1/priprava-KG1.pdf"
+					}
+				]
+			},
+			{
+				"desc": "Poznámky Václava Končického",
+				"links": [
+					{
+						"link_title": "PDF",
+						"url": "http://atrey.karlin.mff.cuni.cz/~koncicky/notes_pdf/kombagra.pdf"
+					}
+				]
+			}
+		]
+	},
+	"NSWI095": {
+		"name": "Úvod do UNIXu",
+		"resources": [
+			{
+				"desc": "Materiály Honzy Musílka ke cvičení. Obsahuje návody, příklady, hezká vysvětlení.",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://kam.mff.cuni.cz/~stinovlas/unix/index"
+					}
+				]
+			},
+			{
+				"desc": "Stránky cvičení Jirka Setničky z roku 2016, obsahují pár odkazů na užitečné taháky a dva vypracované zkouškové příklady",
+				"links": [
+					{
+						"link_title": "Web",
+						"url": "http://kam.mff.cuni.cz/~setnicka/unix-1617"
+					},
+					{
+						"link_title": "Příklad Databáze řízená emailem",
+						"url": "http://kam.mff.cuni.cz/~setnicka/unix-1617/cviceni14"
+					},
+					{
+						"link_title": "Příklad Find bez findu",
+						"url": "http://kam.mff.cuni.cz/~setnicka/unix-1617/cviceni15"
+					}
+				]
+			},
+			{
+				"desc": "Prezentace Libora Forsta",
+				"links": [
+					{
+						"link_title": "Web přednášky",
+						"url": "http://kam.mff.cuni.cz/~fiala/KG1/priprava-KG1.pdf"
+					}
+				]
+			},
+			{
+				"desc": "PDF s velkým množstvím vypracovaných příkladů. Obsahují chyby a je to jeden z důvodu (ne-li přímo důvod) pro pravidlo, které zakazuje brát vypracované příklady na zkoušku. Chyby jsou Forstovi dobře známy. Doporučeno spíše na prohlédnutí zadání úloh.",
+				"links": [
+					{
+						"link_title": "Odkaz chybí (PDF)",
+						"url": "TODO"
+					}
+				]
+			}
+		]
+	},
+	"MISC": {
+		"name": "Různé",
+		"resources": [
+			{
+				"desc": "Fórum studentů MFF UK. Najdete tam stará zadání zkoušek, je možné se tam zeptat na věci týkající se předmětů. Pojďme ho oživit!",
+				"links": [
+					{
+						"link_title": "Fórum",
+						"url": "http://forum.matfyz.info/"
+					}
+				]
+			},
+			{
+				"desc": "Repozitář Petra Houšky shromažďující různé zápisky a další materiály",
 				"links": [
 					{
 						"link_title": "GitHub",
-						"url": "https://github.com/"
-					}
-				],
-				"backups": [
-					{
-						"date": "2016-01-02",
-						"link_title": "backup",
-						"url": "/backup.pdf"
+						"url": "https://github.com/petrroll/mff-stuff"
 					}
 				]
+			},
+			{
+				"desc": "Studnice vědomostí. Poslední dobou je mírně pozapomenuta, není moc aktualizovaná, ale obsahuje věci k alespoň 117 různým předmětům. Na většinu adresářů dlouho nikdo nesahal. Doporučujeme alespoň prohlédnout, obsahuje spoustu zajímavých věcí, některé hezky staré. Bydlí v /afs/ms/doc/vyuka/Studnice_Vedomosti/, kam se dá dostat třeba z počítačů v labu na Malé Straně (připojíte se vzdáleně pomocí ssh)."
+			},
+			{
+				"desc": "Poznámky Václava Končického",
+				"TODO": "Rozebrat na jednotlivé předměty",
+				"links": [
+					{
+						"link_title": "PDF",
+						"url": "http://atrey.karlin.mff.cuni.cz/~koncicky/notes/"
+					}
+				]
+			},
+			{
+				"desc": "Facebooková skupina. Velmi nešikovné médium, existuje jich velká řada. Typicky se základají pro ročníky a obory zvlášť. Ne každý má Facebookový účet, ne každý tam chce něco hledat. Je vhodný na rychlé, nepříliš důležité otázky. Naopak pokud něco vypracujete, raději to dejte alespoň na Fórum."
 			}
 		]
 	}
