@@ -4,10 +4,18 @@ php:
 
 install: travis_retry composer update
 
-after_success:
+before_deploy:
   - eval "$(ssh-agent -s)"
   - openssl aes-256-cbc -K $encrypted_2b3fa8c83d4e_key -iv $encrypted_2b3fa8c83d4e_iv -in .travis/sbirka.sejsel.cz_key.enc -out .travis/sbirka.sejsel.cz_key -d
   - chmod 600 .travis/sbirka.sejsel.cz_key
   - ssh-add .travis/sbirka.sejsel.cz_key
   - git remote add deploy ssh://sbirka@scarlet.sejsel.cz:58885/home/sbirka/sbirka.git/
-  - git push deploy
+  - git checkout master
+  - echo -e "Host scarlet.sejsel.cz\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: git push --force deploy
+  on:
+    branch: master
