@@ -3,3 +3,11 @@ php:
   - '7.1'
 
 install: travis_retry composer update
+
+after_success:
+  - eval "$(ssh-agent -s)"
+  - openssl aes-256-cbc -K $encrypted_2b3fa8c83d4e_key -iv $encrypted_2b3fa8c83d4e_iv -in .travis/sbirka.sejsel.cz_key.enc -out .travis/sbirka.sejsel.cz_key -d
+  - chmod 600 .travis/sbirka.sejsel.cz_key
+  - ssh-add .travis/sbirka.sejsel.cz_key
+  - git remote add deploy ssh://sbirka@scarlet.sejsel.cz:58885/home/sbirka/sbirka.git/
+  - git push deploy
